@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <title>My Business Card</title>
+  
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* General reset and box-sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Basic body and page style */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* The card container */
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      width: 320px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Profile image styles (small) */
+    .profile-img {
+      width: 40px;   /* Adjusted width */
+      height: 40px;  /* Adjusted height */
+      border-radius: 50%;  /* Make the image circular */
+      margin-bottom: 20px; /* Space below image */
+    }
+
+    /* Name style */
+    .name {
+      font-size: 1.5em;
+      color: #333;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Text styles for email, phone, and GitHub */
+    .contact-info {
+      font-size: 1.1em;
+      color: #555;
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+
+    .contact-info a:hover {
+      color: #004d99;
+    }
+
+    /* Styling for headings and links */
+    h2 {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+
+    <!-- Profile Image -->
+    <img src="profile.jpg" alt="My Picture" style="width: 150px; height: 150px;">
+   <!-- Your Name -->
+    <h1 class="name">Brett Bougher</h1>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:brett.bougher@icloud.com">brett.bougher@icloud.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:843-359-1319">843-359-1319</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/brettbougher" target="_blank">brettbougher</a></p>
+
+    </div>
+  </div>
+</body>
+</html>
