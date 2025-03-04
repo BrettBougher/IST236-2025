@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                               // Set the JavaScript version to which TypeScript will compile
+    "module": "esnext",                               // Set the module system to ESNext for modern JavaScript modules
+    "moduleResolution": "node",                       // Allow module resolution like Node.js (with node_modules)
+    "jsx": "react-native",                            // Set JSX pragma for React Native
+    "esModuleInterop": true,                          // Enables compatibility with non-ESM modules
+    "skipLibCheck": true,                             // Skips type checking of declaration files (faster builds)
+    "strict": true,                                   // Enable all strict type-checking options
+    "noImplicitAny": true,                            // Disallow expressions and declarations with an implicit `any` type
+    "forceConsistentCasingInFileNames": true,         // Ensure that file names are case-consistent
+    "isolatedModules": true,                          // Ensure all files can be safely transpiled in isolation
+    "allowJs": true,                                  // Allow JavaScript files to be included in the TypeScript project
+    "resolveJsonModule": true,                        // Allows importing of JSON files
+    "skipDefaultLibCheck": true,                      // Skip default library checks for faster builds
+    "noEmit": true                                    // Do not output files when running the TypeScript compiler
+  },
+  "include": [
+    "src/**/*",                                        // Include all files in the src folder
+    "node_modules/react-native/**/*.d.ts"              // Include TypeScript declaration files from React Native
+  ],
+  "exclude": [
+    "node_modules"                                     // Exclude node_modules from being compiled
+  ]
+}
